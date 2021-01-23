@@ -1,12 +1,12 @@
-import { findAllByTitle } from '@testing-library/react'
 import React from 'react'
 import Button from './Button'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import './Item.css'
 
 const Item =({title,desc,backgroundImg,leftBtnTxt,leftBtnLinks,rightBtnTxt,rightBtnLink,twoButtons,first}) => {
     return(
         <div className='item' style={{
-            backgroundImage: 'url(${backgroundImg}'
+            backgroundImage: "url(${backgroundImg})" //The background Img is not getting embedded
         }}>
             <div className="item__container">
                 <div className="item__text">
