@@ -27,10 +27,10 @@ function App() {
         />
         <Item
         title='Model S'
-        desc='Rs.50,67,618.35'
+        desc='Rs.55 Lakhs'
         descLinks=''
         backgroundImg={ModelS}
-        leftBtnTxt='ORDER NOW'
+        leftBtnTxt='CUSTOM ORDER'
         leftBtnLinks=''
         rightBtnTxt='LEARN MORE'
         rightBtnLink=''
@@ -41,7 +41,7 @@ function App() {
         desc='Money-back guarantee'
         descLinks=''
         backgroundImg={Model3}
-        leftBtnTxt='ORDER NOW'
+        leftBtnTxt='CUSTOM ORDER'
         leftBtnLinks=''
         rightBtnTxt='LEARN MORE'
         rightBtnLink=''
@@ -52,7 +52,7 @@ function App() {
         desc='Money-back guarantee'
         descLinks=''
         backgroundImg={ModelX}
-        leftBtnTxt='ORDER NOW'
+        leftBtnTxt='CUSTOM ORDER'
         leftBtnLinks=''
         rightBtnTxt='LEARN MORE'
         rightBtnLink=''
@@ -63,11 +63,22 @@ function App() {
         desc='Money-back guarantee'
         descLinks=''
         backgroundImg={ModelY}
-        leftBtnTxt='ORDER NOW'
+        leftBtnTxt='CUSTOM ORDER'
         leftBtnLinks=''
         rightBtnTxt='LEARN MORE'
         rightBtnLink=''
         twoButtons='true'  
+        />
+        <Item 
+        title='SolarRoof'
+        desc='Money back guarantee'
+        descLinks=''
+        backgroundImg={SolarRoof}
+        leftBtnTxt='ORDER NOW'
+        leftBtnLinks=''
+        rightBtnTxt='LEARN MORE'
+        rightBtnLink=''
+        twoButtons='true'
         />
         <Item
         title='Accessories'
@@ -78,7 +89,6 @@ function App() {
         leftBtnLinks=''
         rightBtnTxt='LEARN MORE'
         rightBtnLink=''
-        twoButtons='true' 
         />
       </div>
     </div>

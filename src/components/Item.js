@@ -6,7 +6,7 @@ import './Item.css'
 const Item =({title,desc,backgroundImg,leftBtnTxt,leftBtnLinks,rightBtnTxt,rightBtnLink,twoButtons,first}) => {
     return(
         <div className='item' style={{
-            backgroundImage: "url(${backgroundImg})" //The background Img is not getting embedded
+            backgroundImage: `url(${backgroundImg})` //The background Img is not getting embedded
         }}>
             <div className="item__container">
                 <div className="item__text">
@@ -17,7 +17,7 @@ const Item =({title,desc,backgroundImg,leftBtnTxt,leftBtnLinks,rightBtnTxt,right
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                        <button imp='primary' text={leftBtnLinks} Link={leftBtnLinks}/>
+                        <button imp='primary' text={leftBtnTxt} Link={leftBtnLinks}/>
                         {twoButtons && (
                             <Button imp='secondary' text={rightBtnTxt} Link={rightBtnLink}/>
                         )}
