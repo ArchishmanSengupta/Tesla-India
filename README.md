@@ -1,14 +1,5 @@
-<<<<<<< HEAD
-#SOME SCREENSHOT OF THE PAGE
-
-
-
-
-
-
-
-=======
 #Some Screenshots of the project
+
 ![1](https://user-images.githubusercontent.com/71402528/106038693-44f81200-60fe-11eb-9e8a-240ee0783597.png)
 
 ![2](https://user-images.githubusercontent.com/71402528/106038805-65c06780-60fe-11eb-933e-d4ad3ff98a6d.png)
