@@ -1,0 +1,43 @@
+.side__drawer {
+  height: 100%;
+  background-color: white;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 70%;
+  max-width: 300px;
+  z-index: 400;
+  overflow: scroll;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.close__btn {
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  cursor: pointer;
+}
+
+.side__drawer ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+  height: 100%;
+}
+
+.side__drawer li {
+  margin: 10px 0;
+}
+
+.side__drawer a {
+  color: #393c41;
+  text-decoration: none;
+}
+
+.divider {
+  padding: 0px 20px;
+}

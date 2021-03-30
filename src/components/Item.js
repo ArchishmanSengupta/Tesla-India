@@ -17,19 +17,19 @@ const Item =({title,desc,backgroundImg,leftBtnTxt,leftBtnLinks,rightBtnTxt,right
                 </div>
                 <div className="item__lowerThird">
                     <div className="item__buttons">
-                        <button imp='primary' text={leftBtnTxt} Link={leftBtnLinks}/>
-                        {twoButtons && (
-                            <Button imp='secondary' text={rightBtnTxt} Link={rightBtnLink}/>
-                        )}
+                    <Button className="button" imp="button__black" text={leftBtnTxt}/>
+                    <Button imp="button__white" text={rightBtnTxt} />
+                        
                     </div>
                     {first && (
                         <div className="item__expand">
-                        <ExpandMoreIcon />
-                        </div>
+                        <ExpandMoreIcon className="expand__btn" 
+                         />
+                     </div>
                     )}
-                </div>
-            </div>
+                    </div>
             
+            </div>
         </div>
     )
 }
